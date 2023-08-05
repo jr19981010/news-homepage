@@ -83,21 +83,23 @@ main > :nth-child(3) p{
 }
 
 main > :nth-child(3) button{
-    background-color: #00001a;
+    background-color: #d2a163;
+    border-color: #d2a163;
     color:#fefdf9;
-    height: 40px;
-    width: 150px;
+    height: 2.5rem;
+    width: 12.5rem;
     position: absolute;
     bottom: 0;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
     letter-spacing: 0.4rem;
+    text-align: center;
 
 }
 main > :nth-child(3) button:hover{
     cursor: pointer;
-    background-color: #d2a163;
-    border-color: #d2a163;
+    background-color: #00001a;
+    border-color: #00001a;
 }
 /* end of We dive into the next evolution of the web */
 
@@ -279,9 +281,6 @@ main > :nth-child(3){
 
 }
 main > :nth-child(3) button{
-    height: 40px;
-    width: 150px;
-    padding: 20px;
     position: static;
     display: block;
     margin: 0.625rem auto;
@@ -403,9 +402,6 @@ main > :nth-child(5) article p{
     
     }
     main > :nth-child(3) button{
-        height: 40px;
-        width: 150px;
-        padding: 20px;
         position: static;
         display: block;
         margin: 0.625rem auto;
