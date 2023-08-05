@@ -238,10 +238,7 @@ main > :nth-child(5) article p{
 }
 
 @media screen and (min-width: 701px) and (max-width: 950px) {
-header{
-    position: sticky;
-    top: 0;
-}
+
 ul{
     list-style-type: none;
     flex-wrap: wrap;
